@@ -314,3 +314,6 @@ random_samples = dataset["train"][random_indexes]
 print(f"[INFO] Random samples from dataset: \n")
 for text, label in zip(random_samples["text"], random_samples["label"]):
     print(f"Text: {text} | Label: {label}")
+
+# # Get Unique label values
+dataset["train"].unique("label")
