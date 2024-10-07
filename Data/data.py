@@ -317,3 +317,8 @@ for text, label in zip(random_samples["text"], random_samples["label"]):
 
 # # Get Unique label values
 dataset["train"].unique("label")
+
+# Check the count of each label. 
+from collections import Counter 
+
+Counter(dataset["train"]["label"])
