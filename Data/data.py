@@ -4,7 +4,7 @@
 # Can you generate me a JSON of 20 image captions with the fields "text", "labels" and the image captions should be a mixture of captions about "label": "food" and "label" : "not_food".  
 
 # For example:
- 
+
 # Food caption: "My favourite food is ice cream"
 # Not food caption: "A yellow tractor driving over the hill"
 
@@ -151,3 +151,155 @@ vegetable_captions = [
 
 food_captions = pizza_captions + sushi_captions + fruit_captions + vegetable_captions + curry_captions
 print(len(food_captions))
+
+
+not_food_captions = [
+    "Sleek silver laptop resting on a wooden desk",
+    "Remote control placed on a couch cushion",
+    "Stainless steel refrigerator with a convenient water dispenser",
+    "Red ceramic mug sitting next to a coffee maker",
+    "Flat screen TV neatly mounted on a wall",
+    "Pair of reading glasses left open on a book",
+    "Black leather couch adding elegance to a living room",
+    "White porcelain sink with a shiny chrome faucet",
+    "Wooden cutting board with a chef's knife ready for use",
+    "Vintage record player spinning a vinyl record",
+    "Set of stainless steel utensils arranged on a kitchen table",
+    "Colorful area rug brightening up a living room",
+    "Standing floor lamp providing light next to an armchair",
+    "Silver toaster oven sitting on a kitchen counter",
+    "Set of keys hanging on a hook by the door",
+    "Potted plant adding greenery to a windowsill",
+    "Stack of books waiting to be read on a bookshelf",
+    "Red brick fireplace with a mantel serving as a centerpiece",
+    "King-size bed with a white comforter inviting a good night's sleep",
+    "Round wooden dining table with chairs gathered around",
+    "White ceramic vase holding fresh flowers",
+    "Black and white checkered kitchen floor adding a classic touch",
+    "Microwave oven ready for use on a kitchen counter",
+    "Washing machine and dryer side by side in a laundry room",
+    "Set of wine glasses hanging on a rack",
+    "Vintage telephone sitting on a desk",
+    "Wooden hanger holding clothes on a rack",
+    "Ceiling fan with lights illuminating a bedroom",
+    "Set of pots and pans hanging from a kitchen rack",
+    "White bathtub with a shower curtain ready for a soak",
+    "Coffee table cluttered with magazines",
+    "Silverware organizer keeping cutlery tidy in a kitchen drawer",
+    "Wall clock ticking away in a living room",
+    "Set of headphones resting on a desk",
+    "Vacuum cleaner stored in a closet",
+    "Wooden dresser with a mirror reflecting the room",
+    "Set of curtains draped over a window",
+    "Chandelier casting light in a dining room",
+    "Garage door with a remote control ready for use",
+    "Set of speakers perched on a shelf",
+    "Dishwasher installed in a kitchen",
+    "Set of candles arranged on a mantel",
+    "Garden hose rolled up and ready in a yard",
+    "Set of tools organized in a garage",
+    "Bicycle leaning casually against a wall",
+    "Lawn mower stored in a shed",
+    "Barbecue grill waiting on a patio",
+    "Swimming pool sparkling in a backyard",
+    "Hammock swaying between two trees",
+    "Mailbox standing by a front door",
+    "Birdhouse hanging from a tree",
+    "Set of golf clubs stored in a bag",
+    "Basketball hoop set up in a driveway",
+    "Skateboard leaning against a bench",
+    "Set of dumbbells stacked in a gym",
+    "Yoga mat rolled up and ready in a corner",
+    "Treadmill available in a home gym",
+    "Set of skis leaning against a wall",
+    "Surfboard leaning against a fence",
+    "Fishing rod propped against a dock",
+    "Camping tent pitched in a backyard",
+    "Set of binoculars placed on a table",
+    "Drone resting on a desk",
+    "Set of paintbrushes stored in a jar",
+    "Guitar leaning casually against a couch",
+    "Set of board games stacked on a shelf",
+    "Sewing machine ready for use on a table",
+    "Set of knitting needles with yarn waiting to be knitted",
+    "Camera mounted on a tripod",
+    "Set of books stacked on a desk",
+    "Telescope positioned on a balcony",
+    "Microscope set up on a table",
+    "Set of test tubes arranged in a rack",
+    "Set of headphones placed on a desk",
+    "Set of candles lit on a table",
+    "Set of plates stacked in a cupboard",
+    "Set of pillows arranged on a couch",
+    "Set of glasses gleaming in a cabinet",
+    "Set of bowls stacked on a shelf",
+    "Set of mugs hanging on a hook",
+    "Set of spoons stored in a drawer",
+    "Set of forks kept in a holder",
+    "Set of napkins arranged in a ring",
+    "Set of tea towels folded in a kitchen",
+    "Set of potholders stored in a drawer",
+    "Set of oven mitts hanging on a hook",
+    "Set of measuring cups nested in a drawer",
+    "Set of measuring spoons hung on a rack",
+    "Set of mixing bowls perched on a shelf",
+    "Set of baking sheets stacked in a cabinet",
+    "Set of muffin tins stacked together",
+    "Set of cake pans tucked in a drawer",
+    "Set of cookie cutters collected in a jar",
+    "Set of spatulas kept in a holder",
+    "Set of tongs stored in a drawer",
+    "Set of napkins dispensed from a dispenser",
+    "Set of straws held in a holder",
+    "A girl feeding her rabbit in the garden",
+    "Cuddling with a cat on her lap, a woman enjoys her morning coffee",
+    "Walking in the park, a man jogs with his energetic dog",
+    "Watching TV together, a family has their dog stretched out on the floor",
+    "A boy building a fort in the living room with his curious cat watching",
+    "A close-up of a woman practicing yoga in the living room while her dog mimics her poses",
+    "A couple enjoying a movie night on the couch with their pets snuggled close",
+    "A close-up of a girl feeding her rabbit in the garden",
+    "A close-up of a cat lounging on a windowsill with a child reading nearby",
+    "A close-up of a man and his dog sharing a quiet moment on the porch",
+    "A boy giving his dog a bath in the backyard",
+    "A close-up of a family playing a board game with their pets watching intently",
+    "A child playing with a golden retriever in the backyard",
+    "Reading a book on the couch, a woman has a cat curled up beside her",
+    "Cooking dinner in the kitchen, a man has a dog eagerly watching",
+    "Family gathered around a dining table, laughing and eating",
+    "Relaxing on the porch, a couple enjoys the company of their two dogs by their feet",
+    "Brushing her cat's fur in her bedroom, a young girl concentrates",
+    "Playing video games in the living room, a boy has a dog lying next to him",
+    "Working from home at her desk, a woman deals with a cat sitting on the keyboard",
+    "Taking a nap on a hammock, a man has his dog snuggled up next to him",
+    "Friends having a barbecue in the backyard while pets play nearby"
+    "A collection of cleaning products under the sink",
+    "Computer desk with laptop and computer monitor on it with a mousepad and keyboard",
+    "Two dogs laying on a rug",
+    "A cat and a dog sitting on a couch",
+    "Three black dogs laying on the garage floor with a blue car in the background",
+    "A white car parked in a driveway with a wooden fence behind it",
+    "Two people sitting at a dining room table with a newspaper on it"
+]
+
+len(not_food_captions)
+
+
+food_items = [{"text": caption, "label": "food"} for caption in food_captions]
+not_food_items = [{"text": caption, "label": "not_food"} for caption in not_food_captions]
+print(len(food_items))
+print(len(not_food_items))
+
+# Merge the two lists
+all_items = food_items + not_food_items
+len(all_items)
+
+# Make them into a DataFrame
+import pandas as pd
+
+df = pd.DataFrame(all_items)
+
+# Shuffle the DataFrame
+df = df.sample(frac=1).reset_index(drop=True)
+
+df.sample(6)
