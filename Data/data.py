@@ -303,3 +303,14 @@ df = pd.DataFrame(all_items)
 df = df.sample(frac=1).reset_index(drop=True)
 
 df.sample(6)
+
+
+# Inspecting the datasets:
+random_indexes = random.sample(range(len(dataset["train"])), 5)
+print(random_indexes)
+
+random_samples = dataset["train"][random_indexes]
+
+print(f"[INFO] Random samples from dataset: \n")
+for text, label in zip(random_samples["text"], random_samples["label"]):
+    print(f"Text: {text} | Label: {label}")
