@@ -1,0 +1,5 @@
+- Getting/creating a text dataaset with Hugging FaceDatasets. 
+- Preparing text data for machine learning (Tokenization).
+- Creating and training a text classification with hugging face Transformers. 
+- Uploading our trained model to the Hugging Face Hub.
+- Turning our model into a demo with Gradio + Hugging Face Spaces. 
